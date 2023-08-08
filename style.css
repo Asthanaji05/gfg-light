@@ -1,0 +1,109 @@
+*{
+    color:black;
+}
+*::selection{
+    color:black;
+    background-color: green;
+}
+body{
+    background-color: white;
+}
+h1,h5{
+    color:green;
+}
+nav{
+    display: flex;
+    font-size: larger;
+    color: black;
+    background-color: white;
+    height: 40px;
+
+}
+nav:hover{
+    color: green;
+}
+
+.header{
+    background-color: white;
+    color: black;
+    display: flex;
+    background-image: linear-gradient(to right, #00ff62 20%, #00ff99,#00ff4c 80%);
+    padding: 0;
+    margin: 0;
+    border:none;
+
+}
+
+#top{
+    display: flex;
+    height: max-content;
+}
+a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    display: flex;
+    margin-right: 10px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-radius: 8px;
+}
+a:hover{
+    background-image: linear-gradient(to bottom, #ffffff 20%, #3fefa9,#00ff4c);
+    border-radius: 0;
+    border-bottom: 9px solid green;
+}
+#ht{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 40px;
+    font-family: Arial,Helvetica, sans-serif;
+    background-clip: border-box;
+    background: linear-gradient(to right, #23cf65 20%, #04b870,#15cb4b 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.container{
+    display: flex;
+    color:rgb(1, 1, 1);
+}
+h2{color: white;}
+.div-head{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:rgb(0, 0, 0);
+    flex-direction: column;
+    border-top:1px solid grey;
+    border-radius: 0px 0px 20px 20px;
+    background-color:#cfcfcf;
+    background-image: linear-gradient(135deg,rgb(6, 168, 20),rgb(8, 79, 14));
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: medium;
+}
+.div-head:hover{
+    color:rgb(0, 0, 0);
+    background-image: linear-gradient(135deg,rgb(48, 255, 145),#8eff8e 40%, rgb(48, 255, 255));
+    border-top: none;
+}
+.div-head img{
+    border-radius: 8px;
+    width:60%;
+    height: 60dvh;
+    margin: 10px;
+    border: 1px solid black;
+}
+footer{
+    background-color:#ffffff;
+    color:rgb(0, 255, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
